@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.boton{
+    font-family: sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+    padding: 15px 25px;
+	margin-right: 30px;
+	cursor: pointer;
+	border: 0;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: gray;
+	/* propiedades para la animacion del boton */
+	
+	transition: all 0.20s linear;
+	-webkit-transition: all 0.20s linear;
+	-moz-transition: all 0.20s linear;
+	position: relative;
+	bottom: 0;
+}
+
+.boton:hover{
+    color: #ffffff;
+    background-color: goldenrod;
+}
