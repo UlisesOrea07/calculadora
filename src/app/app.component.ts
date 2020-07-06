@@ -6,6 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  resultadoJorge="";
+  Numero=0;
+  Numero2=0;
+  resultadoFinal=0;
+  operacion="";
+
+  actualizarPantalla(numero){
+    this.resultadoJorge += numero;
+  }
+
+
   title = 'Calculadora';
   visible = false;
   numerosSeleccionados: string[] = [];
